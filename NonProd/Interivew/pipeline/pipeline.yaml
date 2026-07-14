@@ -32,7 +32,7 @@ steps:
     provider: azurerm
     command: plan
     environmentServiceNameAzureRM: github.com_Jasring1212
-    commandOptions: "-var-file=dev.tfvars"
+    commandOptions: "-var-file=env.tfvars"
 
 - task: TerraformTaskV4@4
   displayName: Terraform Apply
