@@ -1,4 +1,5 @@
-subscription_id = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+subscription_id = "49840cd6-4e2f-40f8-b341-0970bdc2822c
+"
 
 resource_group_name = "demo-rg"
 
