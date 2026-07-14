@@ -40,4 +40,4 @@ steps:
     provider: azurerm
     command: apply
     environmentServiceNameAzureRM: Azure-Service-Connection
-    commandOptions: "-auto-approve -var-file=dev.tfvars"
+    commandOptions: "-auto-approve -var-file=env.tfvars"
