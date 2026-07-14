@@ -31,7 +31,7 @@ steps:
   inputs:
     provider: azurerm
     command: plan
-    environmentServiceNameAzureRM: Azure-Service-Connection
+    environmentServiceNameAzureRM: github.com_Jasring1212
     commandOptions: "-var-file=dev.tfvars"
 
 - task: TerraformTaskV4@4
@@ -39,5 +39,5 @@ steps:
   inputs:
     provider: azurerm
     command: apply
-    environmentServiceNameAzureRM: Azure-Service-Connection
+    environmentServiceNameAzureRM: github.com_Jasring1212
     commandOptions: "-auto-approve -var-file=env.tfvars"
